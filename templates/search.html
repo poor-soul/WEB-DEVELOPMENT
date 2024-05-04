@@ -42,6 +42,7 @@
                     </select>
                 </div>
             </div>
+            <button type="submit" class="submit-filters">Submit Filters</button>
             <div class="search-bar">
                 <input type="text" name="query" placeholder="Search test papers..." aria-label="Search">
                 <button type="submit"><i class='bx bx-search'></i></button>
@@ -50,7 +51,6 @@
                 {% for number, question in questions %}
                     <p>{{ number }}) {{ question }}</p>
                 {% endfor %}
-                <!-- Results will be displayed here -->
             </div>
         </form>
     </div>
